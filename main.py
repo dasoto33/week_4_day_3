@@ -18,6 +18,10 @@ def create_sorted_linked_list(unsorted_list):
     return linked_list
 
 if __name__ == "__main__":
-    unsorted_list = [5, 2, 8, 1, 3, 7, 9]
+    unsorted_list = [5, 2, 8, 4, 1, 3, 7, 9]
+    sorted_linked_list = create_sorted_linked_list(unsorted_list)
+    sorted_linked_list.display()
+
+    unsorted_list = [14,55,2,6,94,69]
     sorted_linked_list = create_sorted_linked_list(unsorted_list)
     sorted_linked_list.display()
